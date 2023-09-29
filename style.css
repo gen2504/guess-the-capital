@@ -7,4 +7,29 @@
     width: 100vw;
     height: 100vh;
     background-color:lightgreen;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel{
+    width: 90%;
+    max-width:450px;
+    min-height: 350px;
+    background-color: white;
+    border-radius: 23px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px dotted black;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    cursor:pointer;
 }
